@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://media.istockphoto.com/id/1284669003/photo/camping-site-on-the-beautiful-landscape-of-himalayan-mountains-kasol-parvati-valley-himachal.jpg?s=1024x1024&w=is&k=20&c=n_T8-z5I9TbthjXF2gjo_Vf5OM0xpZ_acYkGmLB_Q1I=);
+    background-size: cover;
+    background-position: center;
+}
+
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.319);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+}
+
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.text .image{
+    background-image: url(https://media.istockphoto.com/id/1341288649/photo/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal.jpg?s=1024x1024&w=is&k=20&c=pxNX4Ns19juNzCiJInjnjnWjzugXnZBLblSge_rNKLs=);
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    width: 220px;
+}
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rtext p{
+    font-size: 12px;
+
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.b1{
+    width: 33%;
+    min-height: inherit;
+    background-image: url(https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc=);
+    background-size: cover;
+    background-position: center;
+}
+
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.b1 p{
+    text-align: center;
+    padding: 15px;
+    color: blue;
+    text-shadow: 1px 1px white;
+
+}
+
+.b2{
+    width: 33%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://media.istockphoto.com/id/1255325911/photo/top-of-wooden-table-on-blur-background-with-palm-tree-tropical-cafe-coffee-shop-bar-or.jpg?s=1024x1024&w=is&k=20&c=aa52nlfLz9xPrCUld2uiWJS7ivh7_b3om7KGvBEMWIo=);
+    background-size: cover;
+    background-position: center;
+}
+
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.b2 .up p{
+    color: red;
+    text-shadow: 1px 1px yellow;
+    padding: 15px;
+    /* margin-top: 200px; */
+    /* align-items: center; */
+}
+
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://images.unsplash.com/photo-1617501825452-861b02fcaf9e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255,255,255,0.0344);
+}
+.b3 {
+    /* text-align: center; */
+    width: 34%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+
+/* media query for 700px */
+
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+
+    .b3 .overlay p{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+
+/* media query for 500px */
+
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .text h1{
+        font-size: 5vh;
+    }
+
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rtext p{
+        margin: 5px;
+    }
+
+    .icons{
+        margin-top: 10px;
+    }
+
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+
+    }
+
+    .b2{
+        width: 100%;
+    }
+
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+
+    .b2 .up{
+        min-height: 30vh;
+    }
+}
