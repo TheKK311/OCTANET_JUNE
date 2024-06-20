@@ -18,7 +18,8 @@ html,body{
 .top{
     width: 100%;
     min-height: 60vh;
-    background-image: url(https://media.istockphoto.com/id/1284669003/photo/camping-site-on-the-beautiful-landscape-of-himalayan-mountains-kasol-parvati-valley-himachal.jpg?s=1024x1024&w=is&k=20&c=n_T8-z5I9TbthjXF2gjo_Vf5OM0xpZ_acYkGmLB_Q1I=);
+    background-image:url(img/mountains-6531903_1280.jpg) ;
+    background-image:url(img/3.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -33,9 +34,9 @@ html,body{
 .text{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     width: 100%;
     padding: 0 10vh;
     color: white;
@@ -44,14 +45,17 @@ html,body{
 .text h1{
     font-weight: 600;
     font-size: 4vw;
+    bottom: 50%;
 }
 
 .text .image{
-    background-image: url(https://media.istockphoto.com/id/1341288649/photo/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal.jpg?s=1024x1024&w=is&k=20&c=pxNX4Ns19juNzCiJInjnjnWjzugXnZBLblSge_rNKLs=);
+    background-image: url(img/bastei-3014467_1280.jpg);
     background-size: cover;
     background-position: center;
-    height: 360px;
-    width: 220px;
+    height: 260px;
+    width: 420px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .rtext{
@@ -63,7 +67,7 @@ html,body{
 
 .rtext p{
     font-size: 12px;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bottom{
@@ -75,9 +79,11 @@ html,body{
 .b1{
     width: 33%;
     min-height: inherit;
-    background-image: url(https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc=);
+    background-image: url(img/5.jpg);
     background-size: cover;
     background-position: center;
+    border: 1px solid white;
+
 }
 
 .b1 h1{
@@ -86,7 +92,7 @@ html,body{
 }
 
 .b1 p{
-    text-align: center;
+    text-align: ;
     padding: 15px;
     color: blue;
     text-shadow: 1px 1px white;
@@ -103,9 +109,11 @@ html,body{
 .b2 .up{
     width: 100%;
     min-height: 20vh;
-    background-image: url(https://media.istockphoto.com/id/1255325911/photo/top-of-wooden-table-on-blur-background-with-palm-tree-tropical-cafe-coffee-shop-bar-or.jpg?s=1024x1024&w=is&k=20&c=aa52nlfLz9xPrCUld2uiWJS7ivh7_b3om7KGvBEMWIo=);
+    background-image: url(img/mountains-6531903_1280.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
 .b2 .up h1{
@@ -115,20 +123,24 @@ html,body{
 
 .b2 .up p{
     color: red;
-    text-shadow: 1px 1px yellow;
+    text-shadow: 1px 1px white;
+    font-size:20px;
     padding: 15px;
-    /* margin-top: 200px; */
-    /* align-items: center; */
+    text-align: left;
+
 }
 
 .b2 .down{
     width: 100%;
     min-height: 20vh;
-    background-image: url(https://images.unsplash.com/photo-1617501825452-861b02fcaf9e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(img/4.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 .b2 .down .overlay{
+    padding: 20px;
     position: relative;
     width: 100%;
     min-height: 20vh;
@@ -141,6 +153,8 @@ html,body{
     background-image: url(https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
+    /* border-radius: 10px; */
+    border: 1px solid white;
 }
 
 .b3 .overlay{
@@ -153,6 +167,8 @@ html,body{
 
 .b3 .overlay p{
     padding: 1.2vh;
+    font-weight:300;
+    font-family: sans-serif;
 }
 
 /* media query for 700px */
@@ -183,9 +199,9 @@ html,body{
     }
 
     .text .image{
-        height: 200px;
-        width: 140px;
-        margin-top: 20px;
+        height: 150px;
+        width: 300px;
+        margin-top: ;
     }
 
     .rtext{
