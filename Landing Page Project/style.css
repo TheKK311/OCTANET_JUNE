@@ -1,3 +1,5 @@
+/* declare default value set */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +7,20 @@
     box-sizing: border-box;
 }
 
+/* html and body */
 html,body{
     height: 100%;
     width: 100%;
 }
+
 
 .container{
     width: 100%;
     min-height: 100vh;
 }
 
+
+/* top section css */
 .top{
     width: 100%;
     min-height: 60vh;
@@ -31,6 +37,7 @@ html,body{
     background-color: rgba(0, 0, 0, 0.319);
 }
 
+/* text css */
 .text{
     display: flex;
     justify-content: space-between;
@@ -70,11 +77,15 @@ html,body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* bottom are css */
 .bottom{
     display: flex;
     width: 100%;
     min-height: 40vh;
 }
+
+/* bottom left css */
 
 .b1{
     width: 33%;
@@ -99,6 +110,7 @@ html,body{
 
 }
 
+/* bottom middle css */
 .b2{
     width: 33%;
     min-height: inherit;
@@ -146,6 +158,8 @@ html,body{
     min-height: 20vh;
     background-color: rgba(255,255,255,0.0344);
 }
+
+/* bottom right css */
 .b3 {
     /* text-align: center; */
     width: 34%;
